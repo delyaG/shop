@@ -9,12 +9,8 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class User {
+public class AuthData {
 
-    private Long id;
-    private String name;
     private String login;
-    private AuthData authData;
-    private Role role;
-    private boolean isConfirmed;
+    private String password;
 }
